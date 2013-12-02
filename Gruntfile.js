@@ -10,7 +10,10 @@ module.exports = function(grunt) {
       options: {
         specs: 'specs/*spec.js',
         helpers: 'spec/*Helper.js',
-        template: require('grunt-template-jasmine-requirejs')
+        template: require('grunt-template-jasmine-requirejs'),
+        templateOptions: {
+          requireConfigFile: 'src/main.js'
+        }
       }
     }
   }
@@ -21,5 +24,4 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('default', 'jasmine');
-
 };

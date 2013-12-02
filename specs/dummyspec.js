@@ -11,5 +11,4 @@
         expect(define).not.toBeFalsy();
       });
     });
-
 }(window.define, window.describe, window.beforeEach, window.it, window.expect));

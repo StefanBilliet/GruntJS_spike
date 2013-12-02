@@ -1,0 +1,27 @@
+{
+  "name": "GruntJS_spike",
+  "version": "0.0.0",
+  "description": "GruntJS_spike =============",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-jasmine-runner": "~0.6.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jasmine": "~0.5.2",
+    "grunt-template-jasmine-requirejs": "~0.1.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StefanBilliet/GruntJS_spike.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/StefanBilliet/GruntJS_spike/issues"
+  }
+}
